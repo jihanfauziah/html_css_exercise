@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        column-gap: 20px;
+      }
+
+      .card {
+        width: 200px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card-body {
+        padding: 12px;
+      }
+
+      .name {
+        font-weight: bold;
+        margin-bottom: 6px;
+      }
+
+      .profile-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .profile-pic {
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 50%;
+        margin-right: 6px;
+        object-fit: cover;
+      }
+
+      .mutual {
+        font-size: 13px;
+        color: gray;
+      }
+
+      .add-friend {
+        background-color: #1877f2;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="kucink.jpg">
+        <div class="card-body">
+          <div class="name">Oliver</div>
+          <div class="profile-row">
+            <img class="profile-pic" src="2gok.jpg">
+            <div class="mutual">2 mutual friends</div>
+          </div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="meng.jpg">
+        <div class="card-body">
+          <div class="name">Mimi</div>
+          <div class="profile-row">
+            <img class="profile-pic" src="2gok.jpg">
+            <div class="mutual">3 mutual friends</div>
+          </div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="gokgok.jpg">
+        <div class="card-body">
+          <div class="name">Rex</div>
+          <div class="profile-row">
+            <img class="profile-pic" src="2gok.jpg">
+            <div class="mutual">4 mutual friends</div>
+          </div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
