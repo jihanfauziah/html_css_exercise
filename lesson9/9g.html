@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 12px;
+    }
+
+    .friend-card {
+      width: 200px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+
+    .friend-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .friend-card .info {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .friend-card .info h4 {
+      margin: 0 0 6px 0;
+      font-size: 16px;
+    }
+
+    .friend-card .info p {
+      color: gray;
+      font-size: 14px;
+      margin: 0 0 10px 0;
+      height: 18px; /* Fixed height for perfect alignment */
+    }
+
+    .friend-card .info button {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: auto; /* Push to bottom */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="friend-card">
+      <img src="kucink.jpg" alt="Friend 1">
+      <div class="info">
+        <h4>Oliver</h4>
+        <p>2 mutual friends</p>
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="friend-card">
+      <img src="meng.jpg" alt="Friend 2">
+      <div class="info">
+        <h4>Mia</h4>
+        <p>4 mutual friends</p>
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="friend-card">
+      <img src="gokgok.jpg" alt="Friend 3">
+      <div class="info">
+        <h4>Lucas</h4>
+        <p>1 mutual friend</p>
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
