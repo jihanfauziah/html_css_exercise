@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .tweet {
+      display: flex;
+      max-width: 500px;
+      gap: 10px;
+    }
+
+    .avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+    }
+
+    .tweet-content {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .user-info {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .username {
+      font-weight: bold;
+    }
+
+    .handle {
+      color: gray;
+    }
+
+    .text {
+      line-height: 1.4;
+    }
+
+    .preview-box {
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .link {
+      background-color: #eee;
+      padding: 12px;
+    }
+
+    .link-title {
+      font-weight: bold;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="tweet">
+    <img class="avatar" src="kucink.jpg">
+    <div class="tweet-content">
+      <div class="user-info">
+        <div class="username">supersimple.dev</div>
+        <div class="handle">@SuperSimpleDev</div>
+      </div>
+      <div class="text">What is backend web development? A complete overview. New video is up!</div>
+      <div class="preview-box">
+        <div class="link">
+          <div class="link-title">youtube.com</div>
+          <div>Backend web development - a complete overview (2021)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

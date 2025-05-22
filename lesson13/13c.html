@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>13c Gmail Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .container {
+      width: 400px;
+      background-color: white;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    }
+
+    .header {
+      color: gray;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .email {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .left-section {
+      display: flex;
+      align-items: center;
+    }
+
+    .profile {
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+
+    .email-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .subject {
+      font-size: 13px;
+      color: gray;
+    }
+
+    .time {
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">ALL INBOXES</div>
+    <div class="email">
+      <div class="left-section">
+        <img src="kucink.jpg" class="profile" />
+        <div class="email-text">
+          <div class="title">Chewy Promotions</div>
+          <div class="title">Biggest sales of the year!</div>
+          <div class="subject">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+      <div class="time">4:58 PM</div>
+    </div>
+  </div>
+</body>
+</html>
