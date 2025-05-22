@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise 10b</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      width: 350px;
+    }
+    .profile-pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 12px;
+    }
+    .info {
+      flex: 1;
+    }
+    .name {
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+    .description, .status {
+      font-size: 14px;
+      color: gray;
+      margin-bottom: 2px;
+    }
+    .follow-btn {
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .container {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 12px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <img class="profile-pic" src="kucink.jpg">
+      <div class="info">
+        <div class="name">oliver</div>
+        <div class="description">the cat</div>
+        <div class="status">Popular</div>
+      </div>
+      <button class="follow-btn">Follow</button>
+    </div>
+
+    <div class="card">
+      <img class="profile-pic" src="meng.jpg">
+      <div class="info">
+        <div class="name">Mimi</div>
+        <div class="description">Sleepy Cat</div>
+        <div class="status">Popular</div>
+      </div>
+      <button class="follow-btn">Follow</button>
+    </div>
+
+    <div class="card">
+      <img class="profile-pic" src="gokgok.jpg">
+      <div class="info">
+        <div class="name">Rex</div>
+        <div class="description">Happy Bulldog</div>
+        <div class="status">Popular</div>
+      </div>
+      <button class="follow-btn">Follow</button>
+    </div>
+  </div>
+
+</body>
+</html>
